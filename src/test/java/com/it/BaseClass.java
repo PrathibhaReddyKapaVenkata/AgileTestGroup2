@@ -11,9 +11,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class BaseClass {
 
-    static WebDriver driver;
+    public static WebDriver driver;
 
-    static JavascriptExecutor js;
+    public static JavascriptExecutor js;
 
 
     @BeforeEach
